@@ -1591,4 +1591,4 @@ exports.WETH = WETH;
 exports.currencyEquals = currencyEquals;
 exports.inputOutputComparator = inputOutputComparator;
 exports.tradeComparator = tradeComparator;
-//# sourceMappingURL=kccswap-sdk.cjs.development.js.map
+//# sourceMappingURL=kccswap-testnet-sdk.cjs.development.js.map

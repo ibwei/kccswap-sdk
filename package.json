@@ -5,12 +5,19 @@
   "description": "🛠 An SDK for building applications on top of kccswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "author": "bawei3600@gmail.com",
+  "author": {
+    "name": "ibwei",
+    "email": "997132391@qq.com",
+    "url": "https://github.com/ibwei"
+  },
   "files": [
     "dist",
     "src"
   ],
-  "repository": "https://github.com/ibwei/kccswap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibwei/kccswap-sdk"
+  },
   "keywords": [
     "kccswap",
     "ethereum"
