@@ -1,5 +1,5 @@
 {
-  "name": "kccswap-sdk",
+  "name": "mojito-sdk",
   "license": "MIT",
   "version": "0.0.1",
   "description": "🛠 An SDK for building applications on top of kccswap.",

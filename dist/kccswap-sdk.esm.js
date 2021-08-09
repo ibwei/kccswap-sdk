@@ -16,8 +16,8 @@ var _SOLIDITY_TYPE_MAXIMA;
 var ChainId;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 322] = "MAINNET";
-  ChainId[ChainId["KCCTESTNET"] = 321] = "KCCTESTNET";
+  ChainId[ChainId["MAINNET"] = 321] = "MAINNET";
+  ChainId[ChainId["KCCTESTNET"] = 322] = "KCCTESTNET";
 })(ChainId || (ChainId = {}));
 
 var TradeType;
@@ -371,7 +371,7 @@ function Currency(decimals, symbol, name) {
  * The only instance of the base class `Currency`.
  */
 
-Currency.ETHER = /*#__PURE__*/new Currency(18, 'KCS', 'Kucoin');
+Currency.ETHER = /*#__PURE__*/new Currency(18, 'KCS', 'KuCoin Token');
 var ETHER = Currency.ETHER;
 
 var _WETH;
@@ -437,7 +437,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x9D016A5C62E5663526439FF1A8AFa359aBf967bE', 18, 'WKCS', 'Wrapped KCS'), _WETH[ChainId.KCCTESTNET] = /*#__PURE__*/new Token(ChainId.KCCTESTNET, '0xB296bAb2ED122a85977423b602DdF3527582A3DA', 18, 'WKCS', 'Wrapped KCS'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x4446fc4eb47f2f6586f9faab68b3498f86c07521', 18, 'WKCS', 'Wrapped KCS'), _WETH[ChainId.KCCTESTNET] = /*#__PURE__*/new Token(ChainId.KCCTESTNET, '0xB296bAb2ED122a85977423b602DdF3527582A3DA', 18, 'WKCS', 'Wrapped KCS'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
@@ -1569,4 +1569,4 @@ var Fetcher = /*#__PURE__*/function () {
 }();
 
 export { ChainId, Currency, CurrencyAmount, ETHER, FACTORY_ADDRESS, Fetcher, Fraction, INIT_CODE_HASH, InsufficientInputAmountError, InsufficientReservesError, MINIMUM_LIQUIDITY, Pair, Percent, Price, Rounding, Route, Router, Token, TokenAmount, Trade, TradeType, WETH, currencyEquals, inputOutputComparator, tradeComparator };
-//# sourceMappingURL=kccswap-testnet-sdk.esm.js.map
+//# sourceMappingURL=kccswap-sdk.esm.js.map
